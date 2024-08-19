@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1a1a1a;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #f0f0f0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #333333;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        }
+        .coming-soon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            animation: wiggle 2s infinite;
+        }
+        @keyframes wiggle {
+            0%, 100% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+        }
+        .coming-soon img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+        }
+        .work-in-progress {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            color: #cccccc;
+        }
+        .tagline {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        .contact-info {
+            margin-top: 40px;
+            font-size: 1rem;
+            color: #aaaaaa;
+        }
+        .contact-info a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="coming-soon">
+            <img src="https://media.giphy.com/media/26BRrSvJUa0crqw4E/giphy.gif" alt="Coming Soon">
+        </div>
+        <div class="tagline">Good things come to those who wait...</div>
+        <div class="work-in-progress">Our website is brewing something awesome!</div>
+        <div class="contact-info">Need to get in touch? Drop us a line at <a href="mailto:info@example.com">info@example.com</a></div>
+    </div>
+</body>
+</html>
